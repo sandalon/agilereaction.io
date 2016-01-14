@@ -16,6 +16,8 @@
 
  @import "bootstrap-sprockets";
  @import "bootstrap";
+ @import "slick-carousel/slick/slick.scss";
+ @import "slick-carousel/slick/slick-theme.css";
 
  .header{
    background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
