@@ -1,0 +1,19 @@
+.nav {
+  font-family: sans-serif;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: right;
+  a {
+    text-decoration: none;
+  }
+}
+
+.nav--medium {
+  font-size: 1.0em;
+}
+
+.nav--white {
+  a {
+    color: white;
+  }
+}

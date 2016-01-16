@@ -1,0 +1,6 @@
+@import "grid";
+
+.footer {
+  @include header(false);
+  @include col;
+}

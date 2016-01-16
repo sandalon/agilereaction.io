@@ -1,0 +1,28 @@
+@import "grid";
+
+.gallery {
+  @include row(true);
+}
+.gallery__item {
+  margin-top: 1rem;
+  font-family: arial;
+  font-size: 12;
+
+  @include col;
+  @include mq(600px){
+    @include col(1/2);
+  }
+  @include mq(900px){
+    @include col(1/4);
+  }
+
+  p {
+    margin-top: 1rem;
+  }
+}
+
+.item__title {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+}

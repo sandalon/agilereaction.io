@@ -14,14 +14,26 @@
  *= require_self
  */
 
- @import "bootstrap-sprockets";
- @import "bootstrap";
+ //@import "bootstrap-sprockets";
+ //@import "bootstrap";
  @import "slick-carousel/slick/slick.scss";
  @import "slick-carousel/slick/slick-theme.css";
+ @import "partials/grid";
+ @import "partials/header";
+ @import "partials/logo";
+ @import "partials/nav";
+ @import "partials/footer";
+ @import "partials/gallery";
 
+/*
  .header{
-   background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
-   background: rgba(204, 204, 204, 0.5);
+   background: rgb(48, 48, 48); /
+   background: rgba(48, 48, 48, 0.8);
+   margin-bottom: 0px;
+ }
+
+ .header-text {
+   color: White;
  }
 
  .footer{
@@ -34,14 +46,14 @@
  }
 
  #footer-list{
-    padding: 8px; /* Give the items some air to breathe */
+    padding: 8px;
 }
 
 #footer-list > li {
     display: inline-block;
     zoom:1;
     *display:inline;
-    /* this fix is needed for IE7- */
+
 }
 
 #footer-list > li > a{
@@ -53,3 +65,8 @@
 #footer-list > li > a:hover{
     color: White;
 }
+
+@media only screen and (min-width: 30em) {
+
+}
+*/

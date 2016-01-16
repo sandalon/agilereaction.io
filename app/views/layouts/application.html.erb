@@ -12,35 +12,31 @@
   <![endif]-->
 </head>
 <body>
-  <!-- Static navbar -->
-    <nav class="navbar navbar-default navbar-static-top header">
-      <div class="container">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="/">Agile Reaction</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
 
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="/about">About Us</a></li>
-            <li><a href="/contact">Contact Us</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
+  <header class="header">
+    <div class="header__container">
+      <div class="header__logo">
+        <div class="logo logo--medium logo--white">
+          <a href="/">Agile Reaction</a>
+        </div>
       </div>
-    </nav>
+      <div class="header__nav">
+        <div class="nav nav--medium nav--white">
+          <a href="#">About Us</a> | <a href="#">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </header>
 
 <%= yield %>
 
-  <footer class="footer">
-      <div class="container">
-        <ul id="footer-list">
-          <li><a href="/about">About Us</a></li>
-          <li><a href="/contact">Contact Us</a></li>
-        </ul>
-        <p>
-          Copyright &copy; 2016 Agile Reaction LLC.  All Rights Reserved.
-        </p>
-      </div>
-  </footer>
+  <div class="footer">
+    <ul>
+      <li>About Us</li>
+      <li>Contact Us</li>
+    </ul>
+    <p>Copyright 2016 &copy; Agile Reaction LLC.  All Rights Reserved.</p>
+  </div>
 
 </body>
 </html>
