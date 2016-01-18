@@ -14,8 +14,6 @@
  *= require_self
  */
 
- //@import "bootstrap-sprockets";
- //@import "bootstrap";
  @import "slick-carousel/slick/slick.scss";
  @import "slick-carousel/slick/slick-theme.css";
  @import "partials/grid";
@@ -24,6 +22,7 @@
  @import "partials/nav";
  @import "partials/footer";
  @import "partials/gallery";
+ @import "partials/footerNav";
 
 /*
  .header{

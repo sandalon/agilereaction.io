@@ -67,12 +67,6 @@ $gutter: 1rem;
   padding: 0;
 }
 
-
-.hero {
-  @include header;
-  @include col;
-}
-
 .wrapper {
   @include row;
 }

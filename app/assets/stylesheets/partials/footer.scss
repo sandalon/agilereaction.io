@@ -1,6 +1,21 @@
 @import "grid";
 
 .footer {
-  @include header(false);
-  @include col;
+  @include header();
+  @include col(1);
+
+  padding: 20px;
+  background: rgb(50,50,50);
+  text-align: center;
+
+  p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: courier new;
+    color: white;
+  }
+}
+
+.footer__container {
+  width: 200px;
 }

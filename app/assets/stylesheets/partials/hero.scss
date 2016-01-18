@@ -1,0 +1,6 @@
+@import "grid";
+
+.hero {
+  @include header;
+  @include col;
+}
