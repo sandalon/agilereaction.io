@@ -2,12 +2,13 @@
 
 .gallery {
   @include row(true);
+
 }
 .gallery__item {
   margin-top: 1rem;
   font-family: arial;
   font-size: 12;
-  height: 150px;
+  height: 200px;
 
   @include col;
   @include mq(600px){
