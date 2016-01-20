@@ -8,14 +8,21 @@
   margin-top: 1rem;
   font-family: arial;
   font-size: 12;
-  height: 200px;
+  height: 150px;
+
+  img {
+    display: block;
+    margin: auto;
+  }
 
   @include col;
   @include mq(600px){
     @include col(1/2);
+    height: 200px;
   }
   @include mq(900px){
     @include col(1/4);
+    height: 250px;
   }
 
   p {
