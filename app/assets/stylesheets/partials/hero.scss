@@ -8,7 +8,7 @@
 }
 
 .hero__container {
-  width: 300px;
+  width: 275px;
   background: rgb(50,50,50);
   background: rgba(50,50,50,0.5);
   height: 75px;
@@ -17,12 +17,20 @@
   left: 10%;
   top: 300px;
   text-align: center;
+
+  @include mq(600px){
+    width: 400px;
+  }
+
+  @include mq(900px){
+    width: 400px;
+  }
 }
 
 .hero__label {
   color: White;
   font-family: Arial;
-  font-size: 1.2em;
+  font-size: 1.8em;
   font-weight: bold;
   display: block;
   position: relative;
