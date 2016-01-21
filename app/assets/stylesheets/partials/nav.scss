@@ -1,10 +1,5 @@
 .nav {
-  position: relative;
-  top: 50%;
-  transform: translateY(50%);
   font-family: Courier New;
-  padding-top: 5px;
-  padding-bottom: 5px;
   text-align: right;
   a {
     text-decoration: none;
@@ -12,6 +7,14 @@
 
   a:hover {
     text-decoration: underline;
+  }
+
+  ul {
+    display: block;
+    list-style-type: none;
+    width: 300px;
+    margin-left: auto;
+
   }
 }
 
@@ -23,4 +26,10 @@
   a {
     color: white;
   }
+}
+
+.nav__item {
+  float: right;
+  width: 120px;
+  li { display: inline; }
 }
